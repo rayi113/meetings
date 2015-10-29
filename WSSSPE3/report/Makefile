@@ -15,3 +15,5 @@ WSSSPE3_review.pdf: *.tex *.bib registrants.tex
 clean:
 	rm -f *.pdf *.log *.aux *.out *.bbl *.blg *.toc *.lof *.lot *.dvi *.ps registrants.tex
 
+moveit:
+	cp -f ./WSSSPE3_review.pdf /media/sf_share/
